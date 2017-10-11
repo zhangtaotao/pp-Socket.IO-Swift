@@ -93,7 +93,7 @@ Then import `import SocketIO`.
 ### Carthage
 Add this line to your `Cartfile`:
 ```
-github "socketio/socket.io-client-swift" ~> 12.1.2 # Or latest version
+github "zhangtaotao/pp-Socket.IO-Swift" ~> 1.0.0 # Or latest version
 ```
 
 Run `carthage update --platform ios,macosx`.
@@ -101,7 +101,7 @@ Run `carthage update --platform ios,macosx`.
 Add the `Starscream` and `SocketIO` frameworks to your projects and follow the usual Carthage process.
 
 ### CocoaPods 1.0.0 or later
-Create `Podfile` and add `pod 'Socket.IO-Client-Swift'`:
+Create `Podfile` and add `pod 'pp-Socket.IO-Swift'`:
 
 ```ruby
 use_frameworks!
